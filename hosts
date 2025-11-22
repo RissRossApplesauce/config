@@ -1,0 +1,51 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+127.0.0.1       localhost
+::1             localhost
+
+# prevent data collection
+127.0.0.1  data.microsoft.com
+127.0.0.1  activity.windows.com
+127.0.0.1  scorecardresearch.com
+127.0.0.1  data.msn.com
+127.0.0.1  vortex.data.microsoft.com
+127.0.0.1  vortex-win.data.microsoft.com
+127.0.0.1  telemetry.microsoft.com
+127.0.0.1  watson.telemetry.microsoft.com
+127.0.0.1  reports.wes.df.telemetry.microsoft.com
+127.0.0.1  wes.df.telemetry.microsoft.com
+127.0.0.1  services.wes.df.telemetry.microsoft.com
+127.0.0.1  self.events.data.microsoft.com
+127.0.0.1  telemetry.remoteapp.microsoft.com
+127.0.0.1  telemetry.urs.microsoft.com
+127.0.0.1  settings-win.data.microsoft.com
+127.0.0.1  watson.microsoft.com
+127.0.0.1  diagnostics.support.microsoft.com
+127.0.0.1  survey.watson.microsoft.com
+127.0.0.1  adn.msn.com
+127.0.0.1  ads.msn.com
+127.0.0.1  a.ads1.msn.com
+127.0.0.1  b.ads1.msn.com
+127.0.0.1  ads.microsoft.com
+127.0.0.1  bingads.microsoft.com
+127.0.0.1  ssw.live.com
